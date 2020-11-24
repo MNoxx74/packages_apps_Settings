@@ -213,6 +213,10 @@
     <string name="qs_show_data_usage_title">Show data usage</string>
     <string name="qs_show_data_usage_summary">Show daily cellular/Wi-Fi data usage in QS footer</string>
 
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
+    <string name="qstile_requires_unlocking_summary">Require unlocking to use sensitive QS tiles</string>
+
     <!-- Navigation bar hint -->
     <string name="show_navbar_gesture_bar_title">Gesture bar</string>
     <string name="show_navbar_gesture_bar_summary">Show gesture bar at the bottom of the screen</string>
