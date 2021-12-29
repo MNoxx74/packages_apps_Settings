@@ -235,4 +235,28 @@
                 android:summary="@string/qs_show_data_usage_summary"
                 android:defaultValue="true" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/themes_category_title">
+        <!-- Font style -->
+        <Preference
+            android:key="android.theme.customization.fonts"
+            android:title="@string/theme_customization_font_title"
+            android:summary="@string/theme_customization_font_summary"
+            android:fragment="com.android.settings.genesis.fragments.FontsPicker"/>
+
+        <!-- Icon pack -->
+        <Preference
+            android:key="android.theme.customization.icon_pack"
+            android:title="@string/theme_customization_icon_pack_title"
+            android:summary="@string/theme_customization_icon_pack_summary"
+            android:fragment="com.android.settings.genesis.fragments.StatusbarIcons"/>
+
+        <!-- Adaptive icon pack -->
+        <Preference
+            android:key="android.theme.customization.adaptive_icon_shape"
+            android:title="@string/theme_customization_icon_shape_title"
+            android:summary="@string/theme_customization_icon_shape_summary"
+            android:fragment="com.android.settings.genesis.fragments.IconShapes"/>
+    </PreferenceCategory>
 </PreferenceScreen>
