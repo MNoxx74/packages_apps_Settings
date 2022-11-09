@@ -63,4 +63,9 @@
         android:title="@string/unlock_quick_unlock_control_title"
         android:summary="@string/unlock_quick_unlock_control_summary" />
 
+    <com.genesis.support.preferences.SecureSettingSwitchPreference
+        android:key="power_menu_hide_on_secure"
+        android:title="@string/power_menu_hide_on_secure_title"
+        android:summary="@string/power_menu_hide_on_secure_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
